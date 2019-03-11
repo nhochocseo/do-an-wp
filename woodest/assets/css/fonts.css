@@ -1,0 +1,10 @@
+@font-face {
+	font-family: UTMGodsWordBold;
+	src: url(fonts/UTM_Gods_WordBold.ttf) format("truetype"),
+	font-weight: bold;
+}
+@font-face {
+	font-family: UTMGodsWordR;
+	src: url(fonts/UTM_Gods_WordR.ttf) format("truetype"),
+	font-weight: 500;
+}

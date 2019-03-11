@@ -1,0 +1,814 @@
+/* 
+Theme Name:   Woodest Child
+Description:  Write a sentence about your job
+Author:       admin
+Author URL:   https://awardthemes.com
+Template:     woodest
+Version:      1.2
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  woodest-child
+*/
+
+.no-padding {
+    padding: 0;
+}
+.margin-auto {
+    margin: auto;
+    text-align: center;
+}
+.info-box {
+    color: #242d40;
+}
+.widget_opening .info-box p {
+    font-weight: 300;
+    color: #c5c5c5;
+}
+.footer-section {
+    padding-top: 40px;
+    clear: both;
+    padding-bottom: 40px;
+}
+
+.middle-header {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.owl-nav {
+	display: none!important;
+}
+.portfolio-item {
+ display: none;
+}
+.fw-page-builder-content .awardthemes-elements {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+li.categories-item {
+    float: left;
+    display: inline-block;
+    font-family: Roboto;
+    width: auto;
+    padding: 0px;
+}
+.categories-portfoli{
+    margin-left: 0px;
+}
+li.categories-item.active {
+        background: #fff;
+    color: #000;
+}
+li.categories-item.active a {
+    color: #000;
+}
+#categories-portfolio .separator {
+    display: none;
+}
+.wrapp-categories-portfolio {
+    float: left;
+    /*display: none;*/
+}
+.default-page-content .item h2 {
+    color: #009acf;
+    font: normal 22px OpenSans-Regular;
+}
+.footer-bottom a {
+    color: #125fae;
+}
+.project-content {
+    padding: 15px;
+}
+@media (max-width: 992px) {    
+    #header .bg-nav,#header .ow-navigation {
+        background: #FFF!important;
+        background-color:#FFF !important;
+    }
+    .fw-page-builder-content .fw-row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .type-post .entry-content {
+        width: 100%!important;
+    }
+}
+.blog-holder .type-post .entry-content.grid-entry-content {
+    margin-bottom: 69px;
+}
+.list-category ul li.menu-item {
+    display: inline-block;
+    float: none;
+    width: 32.33333333%;
+}
+.list-category ul li.menu-item a {
+    background: #125fae;
+    color: #fff;
+    border-bottom: 1px solid #ccc;
+    font-size: 17px;
+}
+.list-category .collapse {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.list-category ul li ul.sub-menu {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    border: none;
+    overflow: hidden;
+    box-shadow: none;
+}
+.list-category ul li ul.sub-menu li {
+    width: 100%;
+    display: block;
+}
+.list-category ul li ul.sub-menu li a {
+    border: none;
+    background: no-repeat;
+    color: #000;
+}
+.list-category ul li ul.sub-menu li a:hover {
+    background: #125fae;
+    color: #f7941d;
+    font-family: Roboto;
+}
+.woodest-post-blocks {
+    margin-top: 60px;
+}
+.main-single {
+    margin: 25px 50px 20px 20px;
+}
+.slider-section .item .carousel-caption {
+    /*top: 75%!important;*/
+}
+.contact-form {
+    background: url('/assets/images/background-1.jpg');
+    background-size: cover;
+    color: #fff;
+    border: 4px solid #125fae;
+    border-left: none;
+}
+.welcome-content, .contact-form {
+        height: 556px;
+}
+.contact-form::before{
+    background-color: rgba(0, 0, 0, 0.65);
+}
+.welcome-section .welcome-content::before {
+    left: -5px!important;
+}
+.why-choose-section2 p {
+    line-height: 28px;
+}
+.why-choose-section2 .why-choose-bg-img {
+    margin-top: 25px;
+}
+.welcome-box h4 {
+    color: #125fae;
+}
+.hinh-anh-container .fw-row {
+    float: left;
+    border: 1px solid #ccc;
+    margin: 0px 10px 10px 0px;
+    padding: 0px;
+}
+.hinh-anh-container .fw-row .fw-col-xs-12 {
+    margin: 0px;
+    padding: 0px;
+}
+.hinh-anh-container .fw-row img {
+    width: 100%;
+}
+.hinh-anh-container .fw-row .fw-col-xs-12 img:hover {
+    cursor: pointer;
+}
+.woodest-post-blocks .prev-post, .woodest-post-blocks .next-post {
+    background: #125fae;
+}
+.relatedcat {
+    margin: 40px 35px;
+}
+.relatedcat ul li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+.portfolio-section { 
+    border-bottom: 1px solid #ccc;
+}
+.blog-holder  .entry-cover img {
+    height: 345px!important;
+}
+.blog-holder.lien-quan  .entry-cover img {
+     height: auto!important; 
+}
+.blog-holder.lien-quan .main-content .content {
+    height: 89px;
+    overflow: hidden;
+    text-align: justify;
+}
+.blog-holder.lien-quan .main-content .title {
+    font-size: 16px;
+    height: 64px;
+    overflow: hidden;
+    font-weight: bold;
+    font-family: UTMGodsWordBold;
+}
+.logo {
+    width: 15%;
+    float: left;
+}
+
+.logo img {
+    width: 180px!important;
+}
+@media (max-width: 992px) {
+    .logo {
+        width: 100%;
+        float: left;
+        margin-left: -25px;
+    }
+}
+.header-menu {
+    width: 85%;
+    float: left;
+}
+/*.section-header .title {
+    font-size: 19px;
+    padding: 15px;
+    background-image: linear-gradient(#FF9800, #FFC107);
+    color: #000;
+    text-align: center;
+}*/
+.entry-content .nav-tabs li {
+        color: #000;
+    text-align: left;
+    }
+.header {
+    position: relative;
+    margin: 35px 0px;
+}
+.section-header .title,.header .title {
+    font-family: UTMGodsWordBold;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px 70px 25px  70px;
+    background: url(assets/images/header-title-bankground.png) 32px 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #223356;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.welcome-content .welcome-contact .title {
+        color: #e64d32;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: UTMGodsWordBold;
+}
+.welcome-section .welcome-content p {
+        font-size: 18px;
+    line-height: 16px;
+}
+.welcome-content .image-right {
+    position: absolute;
+    top: -182px;
+    right: -209px;
+}
+.welcome-content .image-right2 {
+    position: absolute;
+    top: -265px;
+    right: -212px;
+}
+.image-icon {
+    position: absolute;
+    top: 50%;
+    right: -192px;
+}
+.dich-vu {
+    background: #263150;
+    margin: auto;
+    color: #000;
+}
+.dich-vu .header-dich-vu {
+    text-align: center;   
+    margin-bottom: 90px; 
+}
+.dich-vu .header-dich-vu .content {
+    color: #fff;
+}
+.dich-vu .main-container {
+    width: 80%;
+    margin: auto;
+}
+.dich-vu .content-dich-vu {
+    background: #FFF;
+    margin-bottom: 200px;
+}
+.dich-vu .content-dich-vu .item1 { 
+    clear: none;
+    display: inline-block;
+}
+.dich-vu .content-dich-vu .item1 .thumb {
+    width: 30%;
+    float: left;
+    position: relative;
+    top: -35px;
+    left: -80px;
+    box-shadow: 1px 1px red;
+    border-right: 3px solid #ffffff0f;
+    border-bottom: 3px solid #ffffff0f;
+}
+.dich-vu .content-dich-vu .item1 .thumb img {
+    width: 100%;
+    height: 100%;
+}
+.dich-vu .content-dich-vu>.item1>.content {
+    width: 60%;
+    float: left;
+    position: relative;
+    left: -45px;
+}
+.dichvu .content-dich-vu>.item1>.content>.content {
+        height: 138px;
+    overflow: hidden;
+}
+.dich-vu .content-dich-vu .content .title{
+    width: 100%;
+    color: #e64d32;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.dich-vu .content-dich-vu .item2 {
+        clear: none;
+    padding-top: 0px;
+    text-align: right;
+    display: inline-block;
+    margin-top: -88px;
+}
+.dich-vu .content-dich-vu .item2 .thumb {
+    width: 30%;
+    float: right;
+     position: relative; 
+    right: -90px;
+    top: -90px;
+    box-shadow: -1px 1px red;
+    border-left: 3px solid #ffffff0f;
+    border-bottom: 3px solid #ffffff0f;
+}
+.dich-vu .content-dich-vu .item2>.content {
+    width: 70%;
+    float: left;
+    position: relative;
+    right: -33px;
+}
+.dich-vu .content-dich-vu .item2 .thumb img {
+    width: 100%;
+    height: 100%;
+}
+.dich-vu .content-dich-vu .item3 {  
+    clear: both;
+    margin-top: -145px;
+    display: inline-block;
+    height: 230px;
+}
+.dich-vu .content-dich-vu .item3 .thumb {
+    width: 30%;
+    float: left;
+    position: relative;
+    top: -80px;
+    left: -80px;
+    box-shadow: 1px 1px red;
+    border-right: 3px solid #ffffff0f;
+    border-bottom: 3px solid #ffffff0f;
+}
+.dich-vu .content-dich-vu .item3 .thumb img {
+    width: 100%;
+    height: 100%;    
+}
+.dich-vu .content-dich-vu>.item3>.content {
+    width: 39%;
+    float: left;
+    position: relative;
+    left: -47px;
+}
+.dich-vu .image_1 {
+    position: absolute;
+    top: 47%;
+    left: -26px;
+}
+.dich-vu .image_2 {
+    position: absolute;
+    top: 5%;
+    right: -16px;
+}
+.dich-vu .image_3 {
+    position: absolute;
+    bottom: 2%;
+    right: 20%;
+}
+.dich-vu .image_4 {
+    position: absolute;
+    bottom: -2%;
+    right: 18%;
+}
+.dich-vu .image_5 {
+    position: absolute;
+    top: 10%;
+    right: 26%;
+}
+.dich-vu .image_6 {
+    position: absolute;
+    bottom: 9%;
+    right: 55%;
+}
+.dotred {
+    border: 1px solid red;
+    width: 80%;
+    float: initial;
+    margin: 110px 0px;
+}
+.dotred2 {
+    border: 1px solid red;
+    width: 123%;
+    float: inherit;
+    margin: 43px 1px;
+}
+.dotred3 {
+    border: 1px solid red;
+    width: 68%;
+    float: left;
+    margin: 50px 0px 0px 217px;
+}
+.thong-tin {
+    float: right;
+    width: 80%;
+}
+.thong-tin span {
+    margin-right: 10px;
+}
+.thong-tin h3 {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.image-icon-tintuc {
+    width: 100%;
+    position: absolute;
+    bottom: -7%;
+}
+.image-icon-tintuc img {
+    width: 100%;
+}
+.blog-holder .main-post {
+    background: #FFF;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 28px;
+}
+.blog-holder .main-post img {
+    border-radius: 5px;
+}
+.blog-holder .main-post .title {
+    font-family: UTM_Gods_WordR;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+.blog-holder .main-post .title a {
+    color: #e64d32;
+}
+.blog-holder .main-post .title a:hover {
+    color: #000;
+}
+.blog-holder .main-post .entry-cover {
+    margin: 0px;
+    padding: 0px;
+}
+.slider-post.slider-section .carousel-control.right {
+    right: -60px;
+}
+.slider-post.slider-section .carousel-control.left {
+    left: -60px;
+}
+.tin-tuc-container {
+    background: #314367;
+}
+.tin-tuc-container .image_1 {
+    top: 5%;
+    position: absolute;
+    left: 5%;
+}
+.tin-tuc-container .background {
+    top: 0%;
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+.tin-tuc-container .background img {
+    width: 100%;
+    /* height: max-content; */
+}
+.tin-tuc-container .image_2 {
+    top: 10%;
+    position: absolute;
+    right: 5%;
+}
+.tin-tuc-container .image_3 {
+    top: 38%;
+    position: absolute;
+    right: 25%;
+}
+.tin-tuc-container .image_4 {
+    top: 38%;
+    position: absolute;
+    left: 15%;
+}
+.tin-tuc-container .image_5 {
+    top: 62%;
+    position: absolute;
+    right: 10%;
+}
+.tin-tuc-container .image_6 {
+    top: 76%;
+    position: absolute;
+    left: 5%;
+}
+.tin-tuc-container .image_7 {
+    top: 93%;
+    position: absolute;
+    right: 10%;
+}
+.section-header .logo {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+.main-thuc-don .noidung {
+        background: #34476d;
+    color: #fff;
+    text-align: center;
+    padding: 5px 32px 25px 32px;
+    border-radius: 10px;
+    margin-bottom: 150px;
+    height: 485px;
+}
+.main-thuc-don .noidung .title, .main-gridbox .title, .main-gridboxfull .title {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.main-thuc-don .noidung .content, .main-gridbox .content {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.main-thuc-don .noidung .chitiet {
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.main-thuc-don .noidung .avatar, .main-gridbox .avatar, .main-gridboxfull .avatar {
+    margin-top: 25px;
+    top: 65%;
+    width: 100%;
+    right: 0px;
+    font-size: 17px;
+    padding: 25px 50px 16px 55px;
+    background: url(assets/images/bankground-khung-thuc-don-1.png) 32px 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #000;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.main-thuc-don .noidung .avatar img {  
+    width: 180px;
+    border-radius: 50%;
+    height: 180px;
+}
+.main-thuc-don .content img {  
+    width: 100%;
+    height: 487px;
+    border-radius: 10px;
+}
+.main-gridbox, .main-gridboxfull {
+    background: #263150;
+    color: #fff;
+    padding: 5px 25px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.main-gridbox .title, .main-gridboxfull .title {
+    text-align: center;
+    color: #dc2727;
+    font-family: UTMGodsWordBold;
+}
+.main-gridbox .avatar, .main-gridboxfull .avatar {
+    margin-top: 30px;
+    position: absolute;
+    padding: 27px 81px 12px 90px;
+}
+.main-gridbox .avatar img, .main-gridboxfull .avatar img {  
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+}
+
+.main-gridboxfull .avatar {
+    top: -100px;
+    margin-top: 0px;
+    position: absolute;
+    padding: 27px 81px 12px 90px;
+}
+.main-gridboxfull {
+    padding-top: 135px;
+}
+.main-boxfull {
+    background: #263150;
+    margin-left: 0px;
+    margin-right: -15px;
+    border-radius: 10px;
+}
+.main-left-kien-truc {
+    background: #FFF;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 100px;
+}
+.main-left-kien-truc .logo {
+    top: -86px;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    float: none;
+    margin: auto;
+}
+.main-left-kien-truc .logo img {
+   margin: auto;
+}
+.slider-kientruc .item-slide {
+    cursor: pointer;
+    float: left;
+    width: 113px;
+    height: 90px;
+    overflow: hidden;
+    display: inline-block;
+}
+.slider-kientruc .item-slide img {
+    height: 100%;
+    width: 100%;
+}
+.slider-kientruc {
+    height: 500px;
+    overflow: hidden;
+}
+.slider-kientruc img {
+    height: 100%;
+}
+.slider-kientruc .item-slide.active {
+    border: 2px solid #fff;
+}
+.slider-kientruc .carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: auto;
+    z-index: 15;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0%;
+    text-align: center;
+    list-style: none;
+    height: 100px;
+    transition-property: -webkit-transform;
+    /*width: 2112px;*/
+    /* overflow: hidden; */
+}
+.rsDefaultInv .rsTmb {
+    display: inline;
+}
+.royalSlider {
+    width: 100% !important;
+}
+.rsNavItem {
+    height: 100px;
+}
+.rsNavItem img {
+    height: 100%!important;
+}
+.main-left-kien-truc .main-content ul {
+    float: none;
+}
+.tin-tuc-main {
+    color: #FFF;
+}
+.nutdatban {
+    width: 130px;
+    background: url(assets/images/nutdatban.png);
+    background-size: cover;
+    color: #2e3c5d;
+    font-size: 23px;
+    font-weight: bold;
+    border-left: none;
+    height: 130px;
+    text-transform: inherit;
+    font-family: UTMGodsWordBold;
+}
+.nutdatban:hover {
+    color: #2e3c5d;
+}
+.container80 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.font20 {
+    font-size: 20px;
+}
+.width160 {
+    width: 133%;
+}
+.contentslide {
+    margin-top: 20px;
+    font-size: 19px;
+    text-align: justify;
+    margin-bottom: 101px;
+    color: #FFF;
+}
+.nav-tabs>li>a {
+    font-size: 18px;
+    color: #827d7d;
+    font-weight: 500;
+}
+.entry-content .nav-tabs li.active::after { 
+    content: "▶";
+    color: #263150;
+    right: 0px;
+    position: absolute;
+    line-height: 40px;
+}
+.entry-content .nav-tabs li.active a { 
+    color: #263150;
+}
+.nav-tabs>li.active>a {
+    border: none!important;
+}
+.welcome2 {
+    padding-left: 95px;
+}
+.content-slideshow {
+    position: fixed;
+    top: 135%;
+    color: #FFF;
+}
+.main-thuc-don .noidung .title {
+    color: #e23d20!important;
+    font-size: 25px;
+    font-family: UTMGodsWordBold;
+}
+.mapouter {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.main-map {
+    display: inline-block;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    width: 310px;
+    height: 150px;
+    margin: auto;
+    border: 5px solid #e64d32;
+}
+.main-map body {
+    overflow: hidden;
+    background-color: #e64d32;
+    border-radius: 12px;
+
+}
+.welcome-description {
+    font-size: 20px;
+}
+.padding-bottom {
+    padding-bottom: 15px;
+}
+.thucdonright {
+    float: right;
+}
+.thucdonleft {
+    float: left;
+}
